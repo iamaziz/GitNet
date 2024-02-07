@@ -35,6 +35,12 @@ def page_config():
         unsafe_allow_html=True
     )
     st.markdown("> _`Visualize the network of followers for a GitHub user and explore connections between users`_")
+    with st.expander("README"):
+        st.markdown("[source code](https://github.com/iamaziz/GitNet)")
+        st.video("https://github.com/iamaziz/st_ollama/assets/3298308/53fb46dc-4ff7-46c4-ace3-7c72b758060b")
+        with open("README.md", "r") as f:
+            info = f.read()
+        st.markdown(info, unsafe_allow_html=True)
     st.markdown("---")
 
 
