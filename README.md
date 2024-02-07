@@ -1,7 +1,6 @@
 # GitHub Followers Network Graph Visualizer
 
 This is a simple Streamlit app to visualize and explore the network of followers for a given GitHub user.
-And explore the network using either Breadth-First Search (BFS) or Depth-First Search (DFS) algorithms to fetch the followers of a user up to a specified depth.
 The app uses the GitHub API to fetch the followers of a user and visualize the network using the `pyvis` library.
 
 
